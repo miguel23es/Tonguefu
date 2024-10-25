@@ -12,10 +12,10 @@ public class HandPush : MonoBehaviour
 
     private bool pushing;
     public GameObject winTextObject;
-    public GameObject ryan;
+    public GameObject miguel;
     public GameObject jack;
     public GameObject nathan;
-    public GameObject miguel;
+    public GameObject ryan;
     public GameObject music;
 
     public float pushSpeed;
@@ -23,10 +23,10 @@ public class HandPush : MonoBehaviour
     private void Start()
     {
         winTextObject.SetActive(false);
+        miguel.SetActive(false);
         ryan.SetActive(false);
         jack.SetActive(false);
         nathan.SetActive(false);
-        miguel.SetActive(false);
         music.SetActive(false);
     }
 
@@ -47,24 +47,30 @@ public class HandPush : MonoBehaviour
         else if (player.position.y < -500f && player.position.y > -1250f)
         {
             winTextObject.SetActive(false);
-            ryan.SetActive(true);
+            miguel.SetActive(true);
         }
         else if (player.position.y < -1250f && player.position.y > -2000f)
         {
-            ryan.SetActive(false);
+            miguel.SetActive(false);
             jack.SetActive(true);
         }
         else if (player.position.y < -2000f && player.position.y > -2750f)
         {
             jack.SetActive(false);
+            ryan.SetActive(true);
+        }
+
+        else if (player.position.y < -2750f && player.position.y > -3500f)
+        {
+            ryan.SetActive(false);
             nathan.SetActive(true);
         }
-        else if (player.position.y < -2750f && player.position.y > -3500f)
+        else if (player.position.y < -3500f && player.position.y > -4250)
         {
             nathan.SetActive(false);
             music.SetActive(true);
         }
-        else if (player.position.y < -3500f) music.SetActive(false);
+        else if (player.position.y < -4250) music.SetActive(false);
 
     }
 
