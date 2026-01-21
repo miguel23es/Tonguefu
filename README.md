@@ -4,6 +4,62 @@ A 3D platformer game built in **Unity 3D and C#**, featuring a frog protagonist 
 
 ---
 
+## Screenshots
+
+<img src="images/main_menu.png" width="100%">
+<p align="center"><b>Main Menu</b></p>
+<br><br>
+
+<table>
+  <tr>
+    <!-- Column 1 -->
+    <td align="center">
+      <img src="images/level.png" width="100%">
+      <br><b>Level 1</b>
+      <br><br>
+      <img src="images/level_1.png" width="100%">
+      <br><b>Level 1 – Alternate View</b>
+    </td>
+
+    <!-- Column 2 -->
+    <td align="center">
+      <img src="images/level2.png" width="100%">
+      <br><b>Level 2</b>
+      <br><br>
+      <img src="images/level_2.png" width="100%">
+      <br><b>Level 2 – Variant</b>
+    </td>
+
+    <!-- Column 3 -->
+    <td align="center">
+      <img src="images/level3.png" width="100%">
+      <br><b>Level 3</b>
+      <br><br>
+      <img src="images/level3_2.png" width="100%">
+      <br><b>Level 3 – Alternate View</b>
+    </td>
+  </tr>
+
+  <tr>
+    <!-- Bottom row -->
+    <td align="center">
+      <img src="images/grapple.png" width="100%">
+      <br><b>Grapple Mechanic</b>
+    </td>
+
+    <td align="center">
+      <img src="images/pause_menu.png" width="100%">
+      <br><b>Pause Menu</b>
+    </td>
+
+    <td align="center">
+      <!-- empty cell for balance -->
+    </td>
+  </tr>
+</table>
+
+---
+
 ## About the Game
 
 In **Tonguefu**, players control a nimble frog that ascends a massive tree filled with obstacles and enemies. The goal is to **reach the top of the tree while defeating enemies along the way**. The game emphasizes precision movement, timing, and combat strategy.
