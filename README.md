@@ -13,14 +13,14 @@ A 3D platformer game built in **Unity 3D and C#**, featuring a frog protagonist 
       <br><b>Main menu</b>
       <br><br>
       <img src="images/level.png" width="100%">
-      <br><b>Level 1</b>
+      <br><b>Obstacles</b>
       <br><br>
       <img src="images/level_1.png" width="100%">
       <br><b>Enemies</b>
     </td>
     <td align="center">
       <img src="images/level_2.png" width="100%">
-      <br><b>Obstacles</b>
+      <br><b>Level 1</b>
       <br><br>
       <img src="images/level2.png" width="100%">
       <br><b>Visuals</b>
